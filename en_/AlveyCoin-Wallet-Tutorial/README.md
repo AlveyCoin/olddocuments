@@ -254,7 +254,7 @@ The configuration settings are:
 
 Next, split the UTXOs to valid amounts for committing stakes by the Super Staker. The UTXOs must be a minimum amount of 100 ALVEY. On the Super staker page select the split coins button (trident icon) and use the default values or make adjustments, but no UTXOs under 100 ALVEY will be used for staking.
 
-![6  Split UTXOs GUI](https://user-images.githubusercontent.com/29760787/85331934-0a156800-b4a5-11ea-9339-eed51b9bddf6.jpg)
+
 
 You can also split UTXOs with the `splitutxosforaddress` command, which can be used for delegated addresses as well. To split the UTXOs between a minimum and maximum value, enter the command:
 
@@ -262,7 +262,7 @@ You can also split UTXOs with the `splitutxosforaddress` command, which can be u
 
 For example, if a wallet held UTXOs of 40, 50, 60, 70, and 800 ALVEY, to split these into UTXOs of a minimum 100 and maximum 200 would use the command:
 
-```splitutxosforaddress "qQhm128r4cTuDFSRehLESydnkburYLj9cY" 100 200
+```splitutxosforaddress "aQhm128r4cTuDFSRehLESydnkburYLj9cY" 100 200
 
 {
   "txid": "197a199c3ac9dd8df574ca77da15c5da31db3f7101e2108638a3b2f94248b9f7",
@@ -283,13 +283,13 @@ The above steps show the transition from a default installation Alvey Core walle
 
 The Alvey Core wallet may be launched as a Super Staker with Alvey-Qt using Settings - Options – Main – Enable super staking steps as shown above, or directly through the command line using the `-superstaking=true` parameter (testnet shown here).
 
-![7  Linux Launch](https://user-images.githubusercontent.com/29760787/85331947-0da8ef00-b4a5-11ea-961a-33fe19df19d9.png)
+![Receive](DStake5.png)
 
 This command for the default program directory on Windows would be:
 
 `alvey-qt -testnet -superstaking=true`
 
-![8  Windows Command Line Launch](https://user-images.githubusercontent.com/29760787/85331962-113c7600-b4a5-11ea-84e3-81e030c91ac5.jpg) 
+![Receive](DStake6.png)
 
 When the wallet launches and syncs the blockchain (creating address index and log events) it is all ready to add Super Stakers. Configure a Super Staker and then enable super staking on Settings – Options – Main – set "Enable super staking" and the Super Staker will be ready.
 
@@ -313,19 +313,19 @@ Once the wallet syncs the blockchain, get an address to send some ALVEY. This wi
 
 Then send 1,300 ALVEY to this address.
 
-![9  Getnewaddress Getbalance](https://user-images.githubusercontent.com/29760787/85331969-13063980-b4a5-11ea-8ccc-280092131d18.png)
+
 
 This 1,300 ALVEY will arrive in a single UTXO, which must be split for the Super Staker operation. Use the `splitutxosforaddress` command with the default 100 minimum size and 200 maximum size:
 
-`./alvey-cli -testnet splitutxosforaddress "qdMp2BNpwL6ZmMEQHfLV5wGNVgmPCuzd7d" 100 200`
+`./alvey-cli -testnet splitutxosforaddress "adMp2BNpwL6ZmMEQHfLV5wGNVgmPCuzd7d" 100 200`
 
-![10  Split UTXOs for Address alveyd](https://user-images.githubusercontent.com/29760787/85331976-15689380-b4a5-11ea-91dd-187b6875f3b2.png)
+
 
 The command response shows that 1,300 ALVEY were selected for splitting, in this case splitting into 12 UTXOs which can be seen with the txid on the Explorer.
 
 At this point, the alveyd wallet is ready for Super Staker operation with address qdMp2BNpwL6ZmMEQHfLV5wGNVgmPCuzd7d, and delegations can be monitored using the command:
 
-`getdelegationsforstaker "qdMp2BNpwL6ZmMEQHfLV5wGNVgmPCuzd7d"`
+`getdelegationsforstaker "adMp2BNpwL6ZmMEQHfLV5wGNVgmPCuzd7d"`
 
 # Super Staker Operations
 
@@ -342,7 +342,7 @@ Delegations to a Super Staker may be checked using the "Delegations…" button o
 
 Normally delegation and Super Staker configuration are stored in the wallet.dat file. If there are problems with the wallet.dat file the delegation information and super staker information may be recovered using the Restore button on the delegation and Super Staker pages. In this case, the wallet will rescan the "state" contract memory for offline staking transactions for the appropriate addresses.
 
-![11  Restore super stakers](https://user-images.githubusercontent.com/29760787/85331982-18638400-b4a5-11ea-9f59-755b2ecd06a6.jpg)
+
 
  
 ***
