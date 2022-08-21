@@ -154,8 +154,7 @@ Here’s how to unlock the wallet for staking only, starting with version 0.18.2
 
 
 
-![Staking button](https://user-images.githubusercontent.com/29760787/70871569-4bfda880-1f6e-11ea-9db1-f5df2fcc0251.jpg)
-
+![Receive](staking1.png)
 
 
 **Remember to have your wallet open 24/7, if you close it, you won’t be able to stake**
@@ -202,7 +201,7 @@ The normal rules for staking UTXOs apply to delegated UTXOs:
 
 To make the delegation assignment from the Alvey Core wallet, select Stake – Delegations, the Add delegation "+" button in the upper right corner, enter the Staker name (for local reference only), Staker address, Fee you agree to pay, and your Address to be delegated. Leave the default Gas settings alone unless you understand how to set these. The delegation transaction will require at least 0.9 ALVEY in fees and any excess will be refunded.
 
-![1  Add Delegation Assignment](https://user-images.githubusercontent.com/29760787/85331894-f8cc5b80-b4a4-11ea-95d1-eb472a5454f1.jpg)
+![Receive](staking2.png)
 
 Press Confirm and Yes to send the delegation transaction.
 
