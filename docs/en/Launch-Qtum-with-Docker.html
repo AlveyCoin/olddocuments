@@ -1,0 +1,924 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Launch Alvey With Docker · Alvey Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Build-Alvey-on-CentOS.html" />
+    
+    
+    <link rel="prev" href="Guidance-of-Alvey-Deployment-and-RPC-Settings.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Using the Alvey wallet</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="Alvey-Wallet-Tutorial/">
+            
+                <a href="Alvey-Wallet-Tutorial/">
+            
+                    
+                    Desktop wallet basic usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="ALVEY-wallet-usage-best-practices/">
+            
+                <a href="ALVEY-wallet-usage-best-practices/">
+            
+                    
+                    Best Practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="updatealvey/">
+            
+                <a href="updatealvey/">
+            
+                    
+                    How to Update your Alvey wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="alvey0182overview/">
+            
+                <a href="alvey0182overview/">
+            
+                    
+                    Alvey 0.18.2 Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="Alvey-Core-v0202-Recommendations/">
+            
+                <a href="Alvey-Core-v0202-Recommendations/">
+            
+                    
+                    Alvey Core v0.20.2 Recommendations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="commands/">
+            
+                <a href="commands/">
+            
+                    
+                    Alvey Core Wallet Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="Adding-Nodes/">
+            
+                <a href="Adding-Nodes/">
+            
+                    
+                    Adding Nodes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="Encrypt-and-Unlock-Alvey-Wallet/">
+            
+                <a href="Encrypt-and-Unlock-Alvey-Wallet/">
+            
+                    
+                    Encrypt and Unlock Alvey Wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="Wallet-Recovery-with-Salvagewallet.html">
+            
+                <a href="Wallet-Recovery-with-Salvagewallet.html">
+            
+                    
+                    Wallet Recovery With Salvagewallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="Testnet-user-guide/README.md">
+            
+                <span>
+            
+                    
+                    Testnet User Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="bech32/">
+            
+                <a href="bech32/">
+            
+                    
+                    bech32 support
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Staking</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="OfflineStaking.html">
+            
+                <a href="OfflineStaking.html">
+            
+                    
+                    Offline Staking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="OfflineStakingDelegation/">
+            
+                <a href="OfflineStakingDelegation/">
+            
+                    
+                    Offline Staking Address Delegation - Undelegation Transaction Details
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="alveyrepo/">
+            
+                <a href="alveyrepo/">
+            
+                    
+                    Repositories
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="gcpgettingstarted/">
+            
+                <a href="gcpgettingstarted/">
+            
+                    
+                    ALVEY On Google Cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="Alvey-AWS/">
+            
+                <a href="Alvey-AWS/">
+            
+                    
+                    ALVEY On AWS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="How-to-Stake-ALVEY-using-a-Linux-Virtual-Private-Server/">
+            
+                <a href="How-to-Stake-ALVEY-using-a-Linux-Virtual-Private-Server/">
+            
+                    
+                    Stake With VPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="Alvey-on-Raspberry-Pi/">
+            
+                <a href="Alvey-on-Raspberry-Pi/">
+            
+                    
+                    Stake With Raspberry Pi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="How-to-Stake-with-Alvey/">
+            
+                <a href="How-to-Stake-with-Alvey/">
+            
+                    
+                    How to Stake With Alvey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="freebsd/">
+            
+                <a href="freebsd/">
+            
+                    
+                    How to Stake on FreeBSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Other Alvey wallets</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="Alvey-Electrum-User-Guide.html">
+            
+                <a href="Alvey-Electrum-User-Guide.html">
+            
+                    
+                    Alvey Electrum Wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="ALVEY-WebWallet-usage/">
+            
+                <a href="ALVEY-WebWallet-usage/">
+            
+                    
+                    Web Wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="How-to-use-Alvey-Android-Wallet/">
+            
+                <a href="How-to-use-Alvey-Android-Wallet/">
+            
+                    
+                    How to use Alvey Android Wallet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="Alvey-Exchange-Usage-Guide-and-Info.html">
+            
+                <a href="Alvey-Exchange-Usage-Guide-and-Info.html">
+            
+                    
+                    Alvey Exchange Usage Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="How-To-Add-Options/">
+            
+                <a href="How-To-Add-Options/">
+            
+                    
+                    How to Add Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="How-to-Use-Bootstrap/">
+            
+                <a href="How-to-Use-Bootstrap/">
+            
+                    
+                    How to Use bootstrap.dat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="Alvey-RPC-API/">
+            
+                <a href="Alvey-RPC-API/">
+            
+                    
+                    Alvey RPC API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Alvey Lightning Client</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="lightning/">
+            
+                <a href="lightning/">
+            
+                    
+                    Alvey Lightning Client
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Deploy Alvey</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="buildalvey.html">
+            
+                <a href="buildalvey.html">
+            
+                    
+                    Build Alvey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="Guidance-of-Alvey-Deployment-and-RPC-Settings.html">
+            
+                <a href="Guidance-of-Alvey-Deployment-and-RPC-Settings.html">
+            
+                    
+                    Guidance of Alvey Deployment and RPC Settings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.3" data-path="Launch-Alvey-with-Docker.html">
+            
+                <a href="Launch-Alvey-with-Docker.html">
+            
+                    
+                    Launch Alvey With Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="Build-Alvey-on-CentOS.html">
+            
+                <a href="Build-Alvey-on-CentOS.html">
+            
+                    
+                    How to Build Alvey on CentOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="How-To-Build-Alvey-On-Raspbian.md">
+            
+                <span>
+            
+                    
+                    How to Build Alvey on Raspbian
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="How-to-Deploy-Star-Network/">
+            
+                <a href="How-to-Deploy-Star-Network/">
+            
+                    
+                    Deploy Alvey Star Network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Smart Contract and ARC20</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="ARC20-Token-Introduce.html">
+            
+                <a href="ARC20-Token-Introduce.html">
+            
+                    
+                    ARC20 Token Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="ARC20-integration.html">
+            
+                <a href="ARC20-integration.html">
+            
+                    
+                    ARC20 Integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="Raw-ARC20-Transaction-implementation-guide">
+            
+                <span>
+            
+                    
+                    Raw ARC20 Transaction implemention guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Unita (archived)</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="Technical-White-Paper-for-AlveyX/">
+            
+                <a href="Technical-White-Paper-for-AlveyX/">
+            
+                    
+                    Unita Technical White Paper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="unitarepo/">
+            
+                <a href="unitarepo/">
+            
+                    
+                    Install Unita from Linux repositories
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="unitagettingstarted/">
+            
+                <a href="unitagettingstarted/">
+            
+                    
+                    Unita on Google Cloud Getting started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="One-Click-Launch-Chain/">
+            
+                <a href="One-Click-Launch-Chain/">
+            
+                    
+                    Unita One-Click-Launch-Chain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="SCAR-Consensus/">
+            
+                <a href="SCAR-Consensus/">
+            
+                    
+                    SCAR: Scalable Consensus Algorithm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="DDAO-Data-Management/">
+            
+                <a href="DDAO-Data-Management/">
+            
+                    
+                    DDAO: Decentralized Data Access Object
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Research</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="Confidential-Assets.html">
+            
+                <a href="Confidential-Assets.html">
+            
+                    
+                    Confidential Assets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="Data-Analytics.html">
+            
+                <a href="Data-Analytics.html">
+            
+                    
+                    Data Analytics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Launch Alvey With Docker</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="how-to-run-alvey-node-with-docker"><a name="how-to-run-alvey-node-with-docker" class="plugin-anchor" href="#how-to-run-alvey-node-with-docker"><i class="fa fa-link" aria-hidden="true"></i></a>How to run Alvey node with docker</h1>
+<h2 id="quick-start"><a name="quick-start" class="plugin-anchor" href="#quick-start"><i class="fa fa-link" aria-hidden="true"></i></a>Quick start</h2>
+<p>This tutorial use Linux Ubuntu as example, OSX and windows platform are almost the same.</p>
+<p>Suppose the reader has basic command line knowledge, and also have docker correctly installed and configured. If not, please learn about command line and Docker first.</p>
+<p>For more details, please refer to <a href="https://github.com/alveyproject/alvey-docker.git" target="_blank">github</a></p>
+<h2 id="get-docker-image"><a name="get-docker-image" class="plugin-anchor" href="#get-docker-image"><i class="fa fa-link" aria-hidden="true"></i></a>Get docker image</h2>
+<p>You might take either way:</p>
+<h3 id="pull-a-image-from-public-docker-hub"><a name="pull-a-image-from-public-docker-hub" class="plugin-anchor" href="#pull-a-image-from-public-docker-hub"><i class="fa fa-link" aria-hidden="true"></i></a>Pull a image from Public Docker hub</h3>
+<pre><code>$ docker pull alvey/alvey
+</code></pre><h3 id="or-build-alvey-image-with-provided-dockerfile"><a name="or-build-alvey-image-with-provided-dockerfile" class="plugin-anchor" href="#or-build-alvey-image-with-provided-dockerfile"><i class="fa fa-link" aria-hidden="true"></i></a>Or, build alvey image with provided Dockerfile</h3>
+<p>The Dockerfile can be downloaded on github: <a href="https://github.com/alveyproject/alvey-docker/blob/master/release/Dockerfile" target="_blank">Dockerfile</a></p>
+<pre><code>$docker build --rm -t alvey/alvey .
+</code></pre><p>For historical versions, please visit <a href="https://hub.docker.com/r/alvey/alvey/" target="_blank">docker hub</a></p>
+<h2 id="prepare-data-path-and-alveyconf"><a name="prepare-data-path-and-alveyconf" class="plugin-anchor" href="#prepare-data-path-and-alveyconf"><i class="fa fa-link" aria-hidden="true"></i></a>Prepare data path and alvey.conf</h2>
+<p>In order to use user-defined config file, as well as save block chain data, -v option for docker is recommended.</p>
+<p>First chose a path to save alvey block chain data:</p>
+<pre><code>sudo rm -rf /data/alvey-data
+sudo mkdir -p /data/alvey-data
+sudo chmod a+w /data/alvey-data
+</code></pre><p>Create your config file, refer to the example [alvey.conf]!(<a href="https://github.com/alveyproject/alvey/blob/1a926b980f03e97322c7dd787835bec1730f35d2/contrib/debian/examples/alvey.conf" target="_blank">https://github.com/alveyproject/alvey/blob/1a926b980f03e97322c7dd787835bec1730f35d2/contrib/debian/examples/alvey.conf</a>). Note rpcuser and rpcpassword to required for later <code>alvey-cli</code> usage for docker, so it is better to set those two options. Then please create the file ${PWD}/alvey.conf with content:</p>
+<pre><code>rpcuser=alvey
+rpcpassword=alveytest
+</code></pre><h2 id="launch-alveyd"><a name="launch-alveyd" class="plugin-anchor" href="#launch-alveyd"><i class="fa fa-link" aria-hidden="true"></i></a>Launch alveyd</h2>
+<p>To launch alvey node:</p>
+<pre><code>## to launch alveyd
+$ docker run -d --rm --name alvey_node \
+             -v ${PWD}/alvey.conf:/root/.alvey/alvey.conf \
+             -v /data/alvey-data/:/root/.alvey/ \
+             alvey/alvey alveyd
+
+## check docker processed
+$ docker ps
+
+## to stop alveyd
+$ docker run -i --network container:alvey_node \
+             -v ${PWD}/alvey.conf:/root/.alvey/alvey.conf \
+             -v /data/alvey-data/:/root/.alvey/ \
+             alvey/alvey alvey-cli stop
+</code></pre><p><code>${PWD}/alvey.conf</code> will be used, and blockchain data saved under /data/alvey-data/</p>
+<h2 id="interact-with-alveyd-using-alvey-cli"><a name="interact-with-alveyd-using-alvey-cli" class="plugin-anchor" href="#interact-with-alveyd-using-alvey-cli"><i class="fa fa-link" aria-hidden="true"></i></a>Interact with <code>alveyd</code> using <code>alvey-cli</code></h2>
+<p>Use following docker command to interact with your alvey node with <code>alvey-cli</code>:</p>
+<pre><code>$ docker run -i --network container:alvey_node \
+             -v ${PWD}/alvey.conf:/root/.alvey/alvey.conf \
+             -v /data/alvey-data/:/root/.alvey/ \
+             alvey/alvey alvey-cli getinfo
+</code></pre><p>For more alvey-cli commands, use:</p>
+<pre><code>$ docker run -i --network container:alvey_node \
+             -v ${PWD}/alvey.conf:/root/.alvey/alvey.conf \
+             -v /data/alvey-data/:/root/.alvey/ \
+             alvey/alvey alvey-cli help
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Guidance-of-Alvey-Deployment-and-RPC-Settings.html" class="navigation navigation-prev " aria-label="Previous page: Guidance of Alvey Deployment and RPC Settings">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Build-Alvey-on-CentOS.html" class="navigation navigation-next " aria-label="Next page: How to Build Alvey on CentOS">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Launch Alvey With Docker","level":"6.3","depth":1,"next":{"title":"How to Build Alvey on CentOS","level":"6.4","depth":1,"path":"Build-Alvey-on-CentOS.md","ref":"Build-Alvey-on-CentOS.md","articles":[]},"previous":{"title":"Guidance of Alvey Deployment and RPC Settings","level":"6.2","depth":1,"path":"Guidance-of-Alvey-Deployment-and-RPC-Settings.md","ref":"Guidance-of-Alvey-Deployment-and-RPC-Settings.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","language-picker","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"language-picker":{"grid-columns":3},"anchors":{},"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Alvey Documentation","language":"en","gitbook":"*"},"file":{"path":"Launch-Alvey-with-Docker.md","mtime":"2021-11-23T21:38:18.963Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-23T22:19:24.862Z"},"basePath":".","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

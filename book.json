@@ -1,0 +1,8 @@
+{
+  "title": "Alvey Documentation",
+  "plugins": [
+    "-lunr",
+    "language-picker",
+    "anchors"
+  ]
+}
