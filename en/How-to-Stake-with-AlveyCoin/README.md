@@ -151,13 +151,13 @@ Possible reasons for not staking：
 
 * 2.Wallet is locked/encrypted -- Solution: unlock the wallet for staking. ([How to unlock?](../Encrypt-and-Unlock-Alvey-Wallet/README.md))
 
-![Not staking due to encryption](locked.jpg)
+![Not staking due to encryption](locked.png)
 
 **No flash sign means staking is disabled**
 
 * 3.Staking is disabled -- Solution: enable staking in the alvey.conf (-staking=true)([How to set alvey.conf？](../Guidance-of-Alvey-Deployment-and-RPC-Settings.md))
 
-![Staking disabled](staking-disabled.jpg)
+![Staking disabled](staking-disabled.jpng)
 
 ## About block reward
 
