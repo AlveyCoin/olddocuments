@@ -157,7 +157,7 @@ Possible reasons for not staking：
 
 * 3.Staking is disabled -- Solution: enable staking in the alvey.conf (-staking=true)([How to set alvey.conf？](../Guidance-of-Alvey-Deployment-and-RPC-Settings.md))
 
-![Staking disabled](staking-disabled.jpng)
+![Staking disabled](staking-disabled.jpg)
 
 ## About block reward
 
