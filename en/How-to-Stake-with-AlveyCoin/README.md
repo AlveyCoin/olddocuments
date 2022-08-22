@@ -42,7 +42,7 @@ First you can generate a new address with：
 ./alvey-cli getnewaddress
 ```
 
-This will generate a new address with Prefix 'Q'. You can send some ALVEY to this new generated address for staking. You can generate as many addresses as you like, and send arbitrary ALVEY as you like for staking.
+This will generate a new address with Prefix 'A'. You can send some ALVEY to this new generated address for staking. You can generate as many addresses as you like, and send arbitrary ALVEY as you like for staking.
 
 Note：**The coin should wait for 2000 blocks before being able to stake, i.e. about 17 hours to MATURE.**. 
 
